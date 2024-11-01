@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "pillagersarehumanoids",
+  "version": "${version}",
+  "name": "PillagersAreHumanoids",
+  "description": "Pillagers should be attacked by undead creatures.",
+  "authors": [
+    "Shallowaqua"
+  ],
+  "contact": {
+    "website": "i.amquora.blue",
+    "repo": "https://github.com/shallow-zzt/PillagersAreHumanoids"
+  },
+  "license": "MIT",
+  "icon": "assets/pillagersarehumanoids/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "blue.amquora.pillagersarehumanoids.PillagersAreHumanoids"
+    ]
+  },
+  "mixins": [
+    "pillagersarehumanoids.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
